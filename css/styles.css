@@ -10,6 +10,42 @@ body{
     font-size: 1.6rem; /** 1 rem = 10 px **/
 }
 
-.title{
-    color: red;
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E14137;
+}
+
+.navbar a {
+    flex-basis: 6%;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li{
+    margin: 0 3rem;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.nav-items li a{
+    text-decoration: none;    
+    color: white;
+}
+
+.nav-items li a:hover{
+    text-decoration: none;    
+    color: black;
 }
