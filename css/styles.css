@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem; /** 1 rem = 10 px **/
+}
+
+.title{
+    color: red;
+}
