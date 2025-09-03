@@ -49,3 +49,17 @@ img{
     text-decoration: none;    
     color: black;
 }
+
+.background-image{
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+}
+
+.background-image h1{
+    color: white;
+    margin: 0 10rem;
+}
